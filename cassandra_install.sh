@@ -2,7 +2,7 @@
 
 echo 'Adding cassandra repository ...'
 echo 'Writing to /etc/apt/sources.list'
-echo '\n#Apache Cassandra repository' >> /etc/apt/sources.list
+echo -e '\n#Apache Cassandra repository' >> /etc/apt/sources.list
 echo 'deb http://www.apache.org/dist/cassandra/debian 10x main' >> /etc/apt/sources.list
 echo 'deb-src http://www.apache.org/dist/cassandra/debian 10x main' >> /etc/apt/sources.list
 
